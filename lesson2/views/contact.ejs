@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link href="/style/screen.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <% include partials/nav.ejs %>
+    <h1>Contact Us </h1>
+    <form id="contact-form" method="POST" action="/contact">
+      <input type="text" name="dummyText" value="<%= qs.id %>"/>
+      <input type="submit" value="submit"/>
+    </form>
+  </body>
+</html>

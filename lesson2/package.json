@@ -1,0 +1,20 @@
+{
+  "name": "lesson2",
+  "version": "1.0.0",
+  "description": "This is NodeJS Express Demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "express",
+    "node"
+  ],
+  "author": "brajesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}

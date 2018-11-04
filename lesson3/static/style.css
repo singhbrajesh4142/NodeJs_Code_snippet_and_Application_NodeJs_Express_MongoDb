@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: #112b3e;
+}
+
+div{
+    color: #fff;
+    background-color: #112737;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 2px;
+    box-sizing: border-box;
+    background-color: #13182e;
+}
+
+form{
+    margin-left: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+input,button,li{
+    padding: 8px;
+    border: 1px solid #47474e;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input{
+    width: 320px;
+}
+button{
+    width:100px;
+}
+
+
+li:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
